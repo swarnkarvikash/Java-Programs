@@ -29,6 +29,6 @@ public class TripletSum {
         System.out.println("Enter target: ");
         int target = sc.nextInt();
 
-        System.out.println("N0. of triplets are: \n"+tripletSum(arr, target));
+        System.out.println("N0. of trip lets are: \n"+tripletSum(arr, target));
     }
 }
