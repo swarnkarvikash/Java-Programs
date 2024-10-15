@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class pow {
 
-    static int Power(int p, int q){
+    static int Power(int p, int q){  //TC => O(q)
         //base case
         if(q == 0){
             return 1;
