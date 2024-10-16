@@ -3,8 +3,7 @@ import java.util.Scanner;
 public class MultiplesKtimes {
 
     static void Kmultiples(int num, int k){
-        if(k == 1){
-            System.out.println(num);
+        if(k == 0){
             return;
         }
         Kmultiples(num, k-1);
