@@ -39,7 +39,7 @@ public class Implementation {
             if(idx == size){
                 insertAtEnd(data);
                 return;
-            }
+            } 
             else if(idx == 0){
                 insertAtHead(data) ;
                 return;
